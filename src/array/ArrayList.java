@@ -111,7 +111,7 @@ public class ArrayList<E> {
     public int indexOf(E element) {
         if (element == null) {
             for (int i=0; i<size; i++) {
-                if (element == null) {
+                if (elements[i] == null) {
                     return i;
                 }
             }
